@@ -1,8 +1,12 @@
 function Calcular(){
-    let total
-    let pagas
-    let valor 
+    let total =  Number(document.getElementById('total').value);
+    let pagas =  Number(document.getElementById('pagas').value);
+    let valor =  Number(document.getElementById('valor').value);
 
-    let japg
-    let dev
+    let valorpg = valor * pagas
+    let valortt = valor * total
+    let falta = (valortt - valorpg)
+
+    document.getElementById("texto").innerHTML = 'O valor ja pago é:  ' + valorpg
+    document.getElementById("texto2").innerHTML = 'O valor faltante é:  ' + falta
 }
