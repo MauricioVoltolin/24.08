@@ -3,7 +3,7 @@ function Calcular(){
     let salario = Number(document.getElementById('salario').value);
     let totalvendas = Number(document.getElementById('totalvenda').value);
 
-    let comissao = totalvendas
+    let comissao = totalvendas * (15/100)
     let salariof = comissao + salario
 
     document.getElementById("name").innerHTML = 'O nome do vendedor:  ' + nome    
