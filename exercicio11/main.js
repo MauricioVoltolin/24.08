@@ -8,5 +8,5 @@ function Calcular(){
     let S=(B+C)*(B+C)
     let D = R+S/2
 
-    document.getElementById("resultado").innerHTML = `O resulta é:   ${D}`
+    document.getElementById("resultado").innerHTML = `O resultado é:   ${D}`
 }
